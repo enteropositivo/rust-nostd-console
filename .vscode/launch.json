@@ -12,7 +12,8 @@
                 "args": [
                     "build",
                     "--bin=nostd",
-                    "--package=nostd"
+                    "--package=nostd",
+                    "--release",
                 ],
                 "filter": {
                     "name": "nostd",

@@ -3,8 +3,21 @@ Fully working example of a **RUST**  _no-std_ console appliation  with print fun
 
 # Compile on windows
 
-### Toolchain needed
-Note: Using the following toolchain requires MinGW/bin in your PATH enviroment variable
+### Prerequisites (MinGW-64) 
+1- Install _msys2-x86_64-latest.exe_  from [https://repo.msys2.org/distrib/](https://repo.msys2.org/distrib/)
+
+2- Once installed open MSYS console and install the compiler
+```sh
+pacman -S mingw-w64-x86_64-gcc mingw-w64-x86_64-gdb mingw-w64-x86_64-make
+```
+3- Set C:\msys64\mingw64\bin\  (os where you installed MingW64)  folder on your PATH enviroment variable
+
+```sh
+set PATH=%PATH%;C:\msys64\mingw64\bin\
+```
+
+
+### Install Rust GNU Toolchain 
 
 ```sh
 rustup toolchain install nightly-x86_64-pc-windows-gnu

@@ -21,7 +21,7 @@ set PATH=%PATH%;C:\msys64\mingw64\bin\
 
 ```sh
 rustup toolchain install nightly-x86_64-pc-windows-gnu
-rustup default stable-x86_64-pc-windows-gnu`
+rustup default nightly-x86_64-pc-windows-gnu`
 ```
 
 ### Compile and Run

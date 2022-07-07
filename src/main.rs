@@ -13,7 +13,6 @@ static ALLOCATOR: LibcAlloc = LibcAlloc;
 // std compatibility
 use no_std_compat::{prelude::v1::*, vec::Vec};
 
-
 #[no_mangle]
 pub extern "C" fn main(_argc: isize, _argv: *const *const u8) -> isize {
 

@@ -1,10 +1,10 @@
 # Description
-Fully working example of a **RUST**  _no-std_ console appliation  with print functionality and  Vectors
+Fully working example of a **RUST**  _no-std_ console application with print functionality and Vectors
 
-# Compile on windows
+# Compiling
 
-### Prerequisites (MinGW-64) 
-1- Install _msys2-x86_64-latest.exe_  from [https://repo.msys2.org/distrib/](https://repo.msys2.org/distrib/)
+### Prerequisites for Windows users (MinGW-64) 
+1- Install _msys2-x86_64-latest.exe_ from [https://repo.msys2.org/distrib/](https://repo.msys2.org/distrib/)
 
 2- Once installed open MSYS console and install the compiler
 ```sh
